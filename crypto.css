@@ -1,0 +1,23 @@
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background: #0b0f1a; color: #e8edf5; line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; }
+        .navbar { background: #141b2b; padding: 0.8rem 2rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1.2rem; border-bottom: 1px solid #2a3a5a; box-shadow: 0 4px 12px rgba(0,0,0,0.6); }
+        .navbar a { color: #b0c7e8; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 30px; transition: all 0.2s; background: transparent; }
+        .navbar a:hover { background: #2a3a5a; color: #f0f6ff; }
+        .navbar a.active { background: #3b6ea0; color: white; }
+        .container { flex: 1; max-width: 1200px; margin: 2rem auto; padding: 0 2rem 2rem; width: 100%; }
+        .page-card { background: #151e2e; border-radius: 32px; padding: 2rem 2.2rem; box-shadow: 0 12px 28px rgba(0,0,0,0.8); border: 1px solid #2a3f5a; backdrop-filter: blur(2px); margin-bottom: 2rem; }
+        h1 { font-size: 2.4rem; font-weight: 600; letter-spacing: -0.5px; margin-bottom: 1.5rem; color: #d6e5ff; border-left: 6px solid #4b8fd8; padding-left: 1.2rem; }
+        h2 { font-size: 1.6rem; font-weight: 500; margin: 1.8rem 0 0.8rem; color: #b6d0f0; }
+        p { margin-bottom: 1rem; color: #d4dcee; font-size: 1.05rem; }
+        .image-grid { display: flex; flex-wrap: wrap; gap: 1.8rem; justify-content: center; margin: 2rem 0 1.2rem; }
+        .image-item { background: #0f1825; border-radius: 24px; padding: 0.8rem 0.8rem 0.4rem; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.5); max-width: 260px; border: 1px solid #2f4465; transition: 0.2s; }
+        .image-item:hover { transform: scale(1.02); border-color: #5a80b0; }
+        .image-item img { width: 100%; height: auto; border-radius: 18px; background: #1e2b3e; display: block; }
+        .image-item p { margin: 0.6rem 0 0.2rem; font-size: 0.95rem; color: #b6cae8; font-weight: 400; }
+        .image-item small { color: #7e95b6; font-size: 0.8rem; }
+        ul, ol { padding-left: 1.6rem; margin: 1rem 0; }
+        li { margin-bottom: 0.4rem; color: #ccd9f0; }
+        .quote { font-style: italic; border-left: 4px solid #4b8fd8; padding: 0.8rem 1.2rem; margin: 1.2rem 0; background: #1a253a; border-radius: 12px; color: #c5d7f2; }
+        .footer { text-align: center; padding: 2rem 1rem 1.2rem; color: #6a7f9e; border-top: 1px solid #1f2e44; margin-top: 1rem; font-size: 0.95rem; background: #0b0f1a; }
+        @media (max-width: 750px) { .container { padding: 0 1rem; } .page-card { padding: 1.5rem; } h1 { font-size: 1.8rem; } }
